@@ -32,7 +32,7 @@ class WeatherListDailyItem extends StatelessWidget {
           child: Container(
             margin: EdgeInsets.symmetric(vertical: 6.w),
             padding: EdgeInsets.all(10.w),
-            height: 110.h,
+            height: 120.h,
             decoration: BoxDecoration(
               color: AppColors.primaryDarkColor,
               borderRadius: getBorderRadius(),

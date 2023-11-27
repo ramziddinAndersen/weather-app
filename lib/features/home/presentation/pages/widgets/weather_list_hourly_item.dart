@@ -32,7 +32,7 @@ class WeatherListHourlyItem extends StatelessWidget {
           child: Container(
             margin: EdgeInsets.symmetric(vertical: 6.w),
             padding: EdgeInsets.all(10.w),
-            height: 105.h,
+            height: 115.h,
             decoration: BoxDecoration(
               color: AppColors.primaryDarkColor,
               borderRadius: getBorderRadius(),

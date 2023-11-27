@@ -18,7 +18,7 @@ class CurrentWeatherSection extends StatelessWidget {
     return BlocBuilder<HomeCubit, HomeState>(
       builder: (context, state) {
         return Container(
-          height: 100.h,
+          height: 110.h,
           padding: EdgeInsets.all(10.w),
           decoration: BoxDecoration(
             color: context.colorScheme.secondary,
