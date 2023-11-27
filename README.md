@@ -1,16 +1,23 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+The purpose of this application is to get weather information for your area or selected city.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+**_Flutter version for the project:_** 3.13.9
 
-A few resources to get you started if this is your first Flutter project:
+**_Weather API:_** Open Weather Map (https://openweathermap.org/)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+You can get your weather key and replace it in the project through the following file:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/core/constants/app_constants.dart
+
+
+
+The project uses code generation. So, before starting the project, call build runner in terminal:
+
+dart run build_runner build --delete-conflicting-outputs
+
+
+The project uses **_auto_route_** library for Navigation and **_flutter_gen_** for asset management.
+
